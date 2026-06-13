@@ -1,0 +1,62 @@
+name: Zoho Projects FinOps
+description: Financial operations guidance for managing Zoho Projects API costs, usage optimization, and budget planning.
+url: https://www.zoho.com/projects/pricing.html
+costModel:
+  type: per-user-per-month
+  billingOptions:
+    - annual
+    - monthly
+  annualDiscount: 15+
+  currency: USD
+  plans:
+    - name: Free
+      costPerUserMonthly: 0
+      maxUsers: 5
+      maxProjects: 3
+      storage: 5 GB
+    - name: Premium
+      costPerUserMonthlyAnnual: 4
+      costPerUserMonthlyMonthly: 5
+      maxUsers: unlimited
+      storage: 100 GB per organization
+    - name: Enterprise
+      costPerUserMonthlyAnnual: 9
+      costPerUserMonthlyMonthly: 10
+      maxUsers: unlimited
+      storage: 120 GB per organization
+    - name: Ultimate
+      costPerUserMonthlyAnnual: 14
+      maxUsers: unlimited
+      storage: 15 GB per user (minimum 150 GB per organization)
+
+costOptimization:
+  - tip: Choose annual billing to save over 15% compared to monthly billing rates.
+  - tip: Use the Free plan for teams of 5 or fewer to eliminate licensing costs entirely.
+  - tip: Read-only users are included in Enterprise (10) and Ultimate (100) plans at no extra cost, reducing per-seat costs for stakeholders.
+  - tip: Monitor API call volume against the 100 requests per 2-minute window to avoid lockout periods that delay operations.
+  - tip: Batch API requests efficiently using the maximum range of 200 records per GET request to minimize total API calls.
+  - tip: Avoid triggering the 30-minute lockout by implementing exponential backoff and request queuing in integrations.
+
+budgetPlanning:
+  exampleScenarios:
+    - scenario: Small team (5 users)
+      plan: Free
+      monthlyCost: 0
+      annualCost: 0
+    - scenario: Growing team (20 users, annual billing)
+      plan: Premium
+      monthlyCost: 80
+      annualCost: 960
+    - scenario: Mid-size organization (50 users, annual billing)
+      plan: Enterprise
+      monthlyCost: 450
+      annualCost: 5400
+    - scenario: Large enterprise (200 users, annual billing)
+      plan: Ultimate
+      monthlyCost: 2800
+      annualCost: 33600
+
+apiCosts:
+  model: included
+  description: API access is included with all Zoho Projects plans at no additional charge. There are no separate API call fees or metered API pricing tiers.
+  rateLimitImpact: Exceeding 100 requests per 2-minute window causes a 30-minute lockout that can impact productivity and integration reliability, but does not incur additional charges.

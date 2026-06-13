@@ -1,0 +1,96 @@
+name: Zoho Projects Plans and Pricing
+description: Pricing plans and tiers available for Zoho Projects project management platform.
+url: https://www.zoho.com/projects/pricing.html
+plans:
+  - name: Free
+    description: Free forever plan for small teams getting started with project management.
+    price: 0
+    currency: USD
+    billingPeriod: month
+    users: 5
+    features:
+      - 3 projects
+      - 5 GB storage
+      - Subtasks
+      - Whiteboard
+      - Mobile apps (iOS and Android)
+      - 50 workflow executions per month
+      - Google Workspace integration
+      - Microsoft 365 integration
+      - Zoho MCP Server access
+    apiAccess: true
+    rateLimits:
+      requestsPerWindow: 100
+      windowMinutes: 2
+      lockoutMinutes: 30
+
+  - name: Premium
+    description: For growing teams needing unlimited projects, time tracking, and customization. Most popular plan.
+    price: 4
+    priceMonthly: 5
+    currency: USD
+    billingPeriod: month
+    billingNote: Price shown is per user per month billed annually. Monthly billing is $5/user/month.
+    users: unlimited
+    features:
+      - Unlimited projects
+      - 100 GB storage
+      - Custom views and statuses
+      - Time tracking and timesheets
+      - Project templates
+      - 5000 workflow executions per month
+      - Smart AI (Zia) capabilities
+      - Web tabs
+      - All Free plan features
+    apiAccess: true
+    rateLimits:
+      requestsPerWindow: 100
+      windowMinutes: 2
+      lockoutMinutes: 30
+
+  - name: Enterprise
+    description: For larger organizations requiring SSO, custom domains, and advanced reporting.
+    price: 9
+    priceMonthly: 10
+    currency: USD
+    billingPeriod: month
+    billingNote: Price shown is per user per month billed annually. Monthly billing is $10/user/month.
+    users: unlimited
+    features:
+      - All Premium features
+      - 10 read-only users
+      - 120 GB storage
+      - 50000 workflow executions per month
+      - Custom domain access
+      - Single sign-on (SSO)
+      - Two-factor authentication (2FA)
+      - Custom milestone fields
+      - Custom project statuses
+      - Custom roles and profiles
+      - Power BI integration
+      - Portfolio dashboard
+    apiAccess: true
+    rateLimits:
+      requestsPerWindow: 100
+      windowMinutes: 2
+      lockoutMinutes: 30
+
+  - name: Ultimate
+    description: For enterprises needing maximum automation limits, dashboards, and storage per user.
+    price: 14
+    currency: USD
+    billingPeriod: month
+    billingNote: Price shown is per user per month billed annually.
+    users: unlimited
+    features:
+      - All Enterprise features
+      - 15 GB storage per user (minimum 150 GB per organization)
+      - 100 read-only users
+      - 500000 workflow executions per month
+      - Unlimited custom dashboards
+      - DAP integration
+    apiAccess: true
+    rateLimits:
+      requestsPerWindow: 100
+      windowMinutes: 2
+      lockoutMinutes: 30

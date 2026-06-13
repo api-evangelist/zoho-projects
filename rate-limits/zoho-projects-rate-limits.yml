@@ -1,0 +1,42 @@
+name: Zoho Projects API Rate Limits
+description: Rate limiting rules and thresholds for the Zoho Projects REST API.
+url: https://www.zoho.com/projects/help/rest-api/zohoprojectsapi.html
+limits:
+  - name: Standard API Rate Limit
+    description: The number of API requests allowed within a rolling two-minute window per portal. Applies to all plans and all REST API versions.
+    requests: 100
+    windowMinutes: 2
+    windowDescription: Two-minute rolling window
+    lockout:
+      enabled: true
+      durationMinutes: 30
+      description: Exceeding the rate limit locks API access for 30 minutes before it resets.
+    scope: per-portal
+    appliesTo:
+      - All pricing plans
+      - All API versions (v1, v2, v3)
+
+  - name: Pagination Range Limit
+    description: Maximum number of records that can be retrieved in a single GET request using the range parameter.
+    maxRange: 200
+    defaultRange: 100
+    note: All GET requests require index and range parameters. Index specifies the starting record position.
+
+  - name: OAuth Token Scopes
+    description: API access is scoped using OAuth tokens. Tokens are product-specific and cannot be shared between Zoho Projects and Zoho BugTracker.
+    authentication: OAuth 2.0
+    tokenSeparation: true
+    availableScopes:
+      - portals
+      - projects
+      - tasks
+      - bugs
+      - documents
+      - users
+      - calendar
+
+notes:
+  - The V3 API is the current recommended version. The older REST API is being deprecated.
+  - Base URL for Zoho Projects API is https://projectsapi.zoho.com
+  - Data center-specific endpoints may apply depending on the user's account region.
+  - Rate limits apply per portal, not per API key or user.
