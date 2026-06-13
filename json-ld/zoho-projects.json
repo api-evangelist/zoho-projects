@@ -1,0 +1,47 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Zoho Projects",
+  "description": "Zoho Projects is a cloud-based project management platform with a REST API for managing projects, tasks, milestones, bugs, time logs, forums, documents, and team collaboration.",
+  "url": "https://www.zoho.com/projects/",
+  "applicationCategory": "BusinessApplication",
+  "applicationSubCategory": "Project Management",
+  "operatingSystem": "Cloud",
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.zoho.com/projects/pricing.html"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "Zoho Corporation",
+    "url": "https://www.zoho.com/",
+    "sameAs": [
+      "https://github.com/zoho",
+      "https://x.com/ZohoProjects",
+      "https://www.linkedin.com/products/zohocorp-zoho-projects/"
+    ]
+  },
+  "featureList": [
+    "Project Management",
+    "Task Management",
+    "Milestone Tracking",
+    "Bug Tracking",
+    "Time Tracking",
+    "Timesheets",
+    "Gantt Charts",
+    "Team Collaboration",
+    "Forums",
+    "Document Management",
+    "OAuth 2.0 Authentication",
+    "REST API"
+  ],
+  "softwareHelp": {
+    "@type": "CreativeWork",
+    "url": "https://www.zoho.com/projects/help/rest-api/zohoprojectsapi.html",
+    "name": "Zoho Projects REST API Documentation"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "url": "https://raw.githubusercontent.com/api-evangelist/zoho-projects/refs/heads/main/apis.yml"
+  }
+}
