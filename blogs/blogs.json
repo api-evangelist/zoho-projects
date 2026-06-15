@@ -1,6 +1,6 @@
 {
   "url": "https://www.zoho.com/blog/projects/",
-  "fetched": "2026-06-13",
+  "fetched": "2026-06-14T20:42:17Z",
   "posts": [
     {
       "title": "Zoho Projects Infinity: Build your projects, your way",
@@ -122,5 +122,16 @@
       "date": "2020-03-31",
       "author": "Charu"
     }
-  ]
+  ],
+  "repo": "zoho-projects",
+  "feeds": [
+    {
+      "source": "https://www.linkedin.com/products/zohocorp-zoho-projects/",
+      "feed_url": "https://www.linkedin.com/products/zohocorp-zoho-projects/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0
 }
