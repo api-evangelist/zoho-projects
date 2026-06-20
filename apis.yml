@@ -1,7 +1,7 @@
 aid: zoho-projects
 name: Zoho Projects
 description: Zoho Projects is a cloud-based project management platform with a REST API for managing projects, tasks, milestones, bugs, time logs, forums, documents, and team collaboration. The API enables developers to integrate project data, automate workflows, and build applications on top of Zoho Projects using OAuth 2.0 authentication.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/zoho-projects/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
@@ -21,7 +21,7 @@ apis:
   - aid: zoho-projects:zoho-projects-api
     name: Zoho Projects API
     description: REST API for Zoho Projects that enables developers to programmatically manage projects, tasks, milestones, bugs, time logs, documents, forums, and user collaboration. Supports OAuth 2.0 authentication with granular scopes and returns JSON responses.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.zoho.com/projects/help/rest-api/zohoprojectsapi.html
     baseURL: https://projectsapi.zoho.com
     tags:
