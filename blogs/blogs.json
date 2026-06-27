@@ -1,130 +1,13 @@
 {
-  "url": "https://www.zoho.com/blog/projects/",
-  "fetched": "2026-06-14T20:42:17Z",
-  "posts": [
-    {
-      "title": "Zoho Projects Infinity: Build your projects, your way",
-      "url": "https://www.zoho.com/blog/projects/zohoprojectsinfinity.html",
-      "date": "2026-04-07",
-      "author": "Shirin Shekhar"
-    },
-    {
-      "title": "Turn paperwork from a blocker into a milestone in Zoho Projects",
-      "url": "https://www.zoho.com/blog/projects/paperwork-from-blocker-to-milestone.html",
-      "date": "2026-02-18",
-      "author": "Anirudh Kidambi"
-    },
-    {
-      "title": "Contract Signed. Project Ready. Tasks Created.",
-      "url": "https://www.zoho.com/blog/projects/zoho-projects-zoho-contracts-integration.html",
-      "date": "2025-12-03",
-      "author": "Akhilraj"
-    },
-    {
-      "title": "Zoho Projects Plus: Where collaborative intelligence meets simplified hybrid work management",
-      "url": "https://www.zoho.com/blog/projects/introducing-zohoprojectsplus.html",
-      "date": "2025-03-11",
-      "author": "Shirin Shekhar"
-    },
-    {
-      "title": "Introducing Zia's game-changing features in Zoho Projects",
-      "url": "https://www.zoho.com/blog/projects/transforming-project-management-with-zia.html",
-      "date": "2024-07-31",
-      "author": "Anirudh Kidambi"
-    },
-    {
-      "title": "Introducing Zoho Projects 8.0: Bridging the divide between functionality and user experience",
-      "url": "https://www.zoho.com/blog/projects/introducing-zoho-projects-8.html",
-      "date": "2024-01-09",
-      "author": "Shirin Shekhar"
-    },
-    {
-      "title": "Improve your efficiency with new ways of automating tasks and accessing apps in Zoho Projects",
-      "url": "https://www.zoho.com/blog/projects/improve-your-efficiency-with-new-ways-of-automating-tasks-and-accessing-apps-in-zoho-projects.html",
-      "date": "2022-07-06",
-      "author": "Lavanya Athinarayanan"
-    },
-    {
-      "title": "Custom functions and other updates that will elevate your project management",
-      "url": "https://www.zoho.com/blog/projects/custom-functions-and-other-updates-that-will-elevate-your-project-management.html",
-      "date": "2022-04-12",
-      "author": "Lavanya Athinarayanan"
-    },
-    {
-      "title": "The continued value of Zoho Projects: report from Nucleus Research",
-      "url": "https://www.zoho.com/blog/projects/the-continued-value-of-zoho-projects-report-from-nucleus-research.html",
-      "date": "2022-03-29",
-      "author": "Charu"
-    },
-    {
-      "title": "Finishing off in style: End-of-year product updates from Zoho Projects",
-      "url": "https://www.zoho.com/blog/projects/end-of-year-product-updates.html",
-      "date": "2021-11-16",
-      "author": "Charu"
-    },
-    {
-      "title": "Project management at your fingertips: All about the Zoho Projects iOS update",
-      "url": "https://www.zoho.com/blog/projects/zoho-projects-ios-update.html",
-      "date": "2021-10-27",
-      "author": "Charu"
-    },
-    {
-      "title": "Celebrating 15 years of Zoho Projects!",
-      "url": "https://www.zoho.com/blog/projects/celebrating-15-years-of-zoho-projects.html",
-      "date": "2021-08-24",
-      "author": "Charu"
-    },
-    {
-      "title": "Eliminate inconsistencies across platforms using Universal Actions",
-      "url": "https://www.zoho.com/blog/projects/teams-outlook-zoho-projecs.html",
-      "date": "2021-05-26",
-      "author": "Naveen Kumar V"
-    },
-    {
-      "title": "Announcing the launch of Arabic language support in Zoho Projects",
-      "url": "https://www.zoho.com/blog/projects/announcing-the-launch-of-arabic-support-in-zoho-projects.html",
-      "date": "2021-05-13",
-      "author": "Charu"
-    },
-    {
-      "title": "Work smarter with these intelligent features in Zoho Projects",
-      "url": "https://www.zoho.com/blog/projects/work-smarter-with-these-intelligent-features-in-zoho-projects.html",
-      "date": "2021-04-13",
-      "author": "Charu"
-    },
-    {
-      "title": "Introducing Zoho Projects 7: Conquering the chaos in your project management process",
-      "url": "https://www.zoho.com/blog/projects/introducing-zoho-projects-7.html",
-      "date": "2021-01-11",
-      "author": "Charu"
-    },
-    {
-      "title": "Third-party integrations: simplify your work by connecting more apps to Zoho Projects",
-      "url": "https://www.zoho.com/blog/projects/third-party-integrations-simplify-your-work-by-connecting-more-apps-to-zoho-projects.html",
-      "date": "2020-07-06",
-      "author": "Naveen Kumar V"
-    },
-    {
-      "title": "The Project Management Guide for Remote Teams",
-      "url": "https://www.zoho.com/blog/projects/the-project-management-guide-for-remote-teams.html",
-      "date": "2020-05-04",
-      "author": "Sriram Kothandaraman"
-    },
-    {
-      "title": "From classrooms to meeting rooms: a project management tool for every business",
-      "url": "https://www.zoho.com/blog/projects/from-classrooms-to-meeting-rooms-a-project-management-tool-for-every-business.html",
-      "date": "2020-04-14",
-      "author": "Naveen Kumar"
-    },
-    {
-      "title": "Introducing new and improved Gantt chart in Zoho Projects",
-      "url": "https://www.zoho.com/blog/projects/introducing-new-and-improved-gantt-chart.html",
-      "date": "2020-03-31",
-      "author": "Charu"
-    }
-  ],
   "repo": "zoho-projects",
   "feeds": [
+    {
+      "source": "https://www.zoho.com/blog/projects/feed/",
+      "feed_url": "https://www.zoho.com/blog/projects/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
     {
       "source": "https://www.linkedin.com/products/zohocorp-zoho-projects/",
       "feed_url": "https://www.linkedin.com/products/zohocorp-zoho-projects/",
@@ -133,5 +16,6 @@
       "method": "none"
     }
   ],
-  "post_count": 0
+  "fetched": "2026-06-27T12:03:07Z",
+  "post_count": 1
 }
