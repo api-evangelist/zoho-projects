@@ -38,6 +38,10 @@ apis:
       - type: OpenAPI
         url: https://projects.zoho.com/api-docs
 common:
+  - type: VulnerabilityDisclosure
+    url: security/zoho-projects-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/zoho-projects-domain-security.yml
   - type: Website
     url: https://www.zoho.com/projects/
   - type: Documentation
