@@ -20,6 +20,17 @@ modified: '2026-06-13'
 specificationVersion: '0.23'
 tags:
   - Project Management
+  - Task
+  - Milestones
+  - Bug Tracking
+  - Time Tracking
+  - Team Collaboration
+  - Gantt Charts
+  - Timesheets
+  - Forums
+  - Documents
+tags_raw:
+  - Project Management
   - Tasks
   - Milestones
   - Bug Tracking
@@ -37,6 +48,14 @@ apis:
     humanURL: https://www.zoho.com/projects/help/rest-api/zohoprojectsapi.html
     baseURL: https://projectsapi.zoho.com
     tags:
+      - Project Management
+      - Task
+      - Milestones
+      - Bug Tracking
+      - Time Tracking
+      - Documents
+      - Forums
+    tags_raw:
       - Project Management
       - Tasks
       - Milestones
