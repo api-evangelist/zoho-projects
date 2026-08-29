@@ -1,6 +1,17 @@
 aid: zoho-projects
 name: Zoho Projects
 description: Zoho Projects is a cloud-based project management platform with a REST API for managing projects, tasks, milestones, bugs, time logs, forums, documents, and team collaboration. The API enables developers to integrate project data, automate workflows, and build applications on top of Zoho Projects using OAuth 2.0 authentication.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
