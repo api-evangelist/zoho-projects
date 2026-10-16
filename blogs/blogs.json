@@ -2,6 +2,13 @@
   "repo": "zoho-projects",
   "feeds": [
     {
+      "source": "https://www.zoho.com/blog/projects/",
+      "feed_url": "https://www.zoho.com/blog/projects/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
       "source": "https://www.linkedin.com/products/zohocorp-zoho-projects/",
       "feed_url": "https://www.linkedin.com/products/zohocorp-zoho-projects/",
       "title": "",
@@ -9,7 +16,7 @@
       "method": "none"
     }
   ],
-  "fetched": "2026-10-03T12:30:02Z",
+  "fetched": "2026-10-10T13:15:00Z",
   "post_count": 10,
   "feed_nature": "vendor-blog",
   "feed_nature_basis": "path_blog",
